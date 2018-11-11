@@ -28,14 +28,95 @@
     <div id="hero" class="container-fluid d-flex flex-column justify-content-center align-items-center">
         <img src="https://previews.123rf.com/images/boians/boians1708/boians170800135/83183897-azul-robot-volando-hacia-el-cielo-dise%C3%B1o-de-car%C3%A1cter-de-robot-3d.jpg">
         <h1 class="text-center mt-4">Fidel Gil</h1>
-        <i class="fas fa-star fa-3x"></i>
+
+        <div class="star my-4 d-flex flex-row justify-content-center align-items-center">
+            <hr class="m-0 p-0 mr-3">
+            <i class="fas fa-star fa-2x text-center"></i> 
+            <hr class="m-0 p-0 mr-3">
+        </div>
+
         <p class="text-center mt-4">Web Developer</p>
+        
     </div>
 
+    <div id="portfolio"  class="container-fluid p-3">
+
+        <h1 class="text-center mt-5">PORTFOLIO</h1>
+
+        <div class="star my-4 d-flex flex-row justify-content-center align-items-center">
+            <hr class="m-0 p-0 mr-3">
+            <i class="fas fa-star fa-2x text-center"></i> 
+            <hr class="m-0 p-0 mr-3">
+        </div>
 
 
+        <div class="row d-flex justify-content-around">
+
+            <div class="col-12 col-md-6 col-lg-4 px-4 my-4">
+                <div class="project d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="https://cdn-images-1.medium.com/max/1600/1*QoR3rxWIbnf5wmF_IuAHqQ.png">                    
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 px-4 my-4">
+                <div class="project d-flex justify-content-center align-items-center"> 
+                    <img class="img-fluid" src="https://www.manejandodatos.es/wp-content/uploads/2013/07/html5_logo.png">
+                </div>    
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4 px-4 my-4">
+                <div class="project d-flex justify-content-center align-items-center">
+                    <img class="img-fluid" src="https://programarfacil.com/wp-content/uploads/2015/06/css3.png">
+                </div>    
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div id="about" class="container-fluid d-flex flex-column justify-content-center align-items-center">
+        <div class="row d-flex flex-column ">
+
+            <!-- 1 -->
+            <h1 class="col-12">ABOUT</h1>
+
+            <!-- 2 -->
+
+                 <div class="star my-4 d-flex flex-row justify-content-center align-items-center">
+                    <hr class="m-0 p-0 mr-3">
+                    <i class="fas fa-star fa-2x text-center"></i> 
+                    <hr class="m-0 p-0 mr-3">
+                </div>
+
+            <!-- 3 -->
+
+            <p class="col-12"> Fidel is human living in Mexico City</p>
+            <p class="col-12 text-left px-5">
+                Freelancer is a free bootstrap theme created by Start Bootstrap. 
+                The download includes the complete source files including HTML, CSS,
+                and JavaScript as well as optional LESS stylesheets for easy customization.
+
+                Whether you're a student looking to showcase your work, a professional looking
+                to attract clients, or a graphic artist looking to share your projects, this
+                 template is the perfect starting point!
+            </p>
+
+            <!-- 4 -->
+            
+            <a class="col-12 col-md-8 col-lg-5" href="https://github.com/gilhubmx2018"  target="_blank">
+            <button type="button" class="btn btn-light col-5 mt-4">
+                <i class="fab fa-github mr-1"></i>
+                Visit my GitHub
+            </button>
+            </a>
+        </div>
+
+    </div>
+    
     <style>
         @import url('https://fonts.googleapis.com/css?family=Montserrat: 300, 400, 500, 600, 700, 800, 900');
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+        
         .navbar {
             background-color: rgb(44, 62, 80);
             height: 106px;
@@ -83,6 +164,84 @@
             font-size: 25px;
 
         }
+
+        #portfolio .project {
+            height: 200px;
+            background-color: #6279B8;
+
+        }
+
+        #portfolio h1 {
+            font-family: 'Monserrat', sans-serif;
+            color: #393E46;
+            font-weight: 700;
+        }
+
+        #hero .star hr {
+            width: 100px;
+            height: 5px;
+            background-color: white;
+        }
+
+        #hero .star .fa-star {
+            color: white;
+        }
+
+        #portfolio .star hr {
+            width: 100px;
+            height: 5px;
+            background-color: #393E46;
+        }
+
+        #portfolio .star .fa-star {
+            color: #393E46;
+        }
+
+        #about {
+            background-color: red;
+        }
+
+        #about .star hr {
+            width: 100px;
+            height: 5px;
+            background-color: white;
+
+        }
+
+        #about .star .fa-star {
+            color: white;
+        }
+
+        #about h1 {
+            font-family: 'Monserrat', sans-serif;
+            color: #393E46;
+            font-weight: 700;
+        }
+
+        #about p {
+            font-family: 'Lato', sans-serif;
+            color: white;
+            font-size: 20px;
+
+        }
+
+        #about button {
+            background-color: red;
+            border: 2px solid white;
+            color: white;
+            font-family: 'Lato', sans-serif;
+            font-size: 22px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+
+        }
+
+        #about button:hover {
+            background-color: white;
+            color: black;
+        }
+
+
 
     </style>
       
